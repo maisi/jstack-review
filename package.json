@@ -11,7 +11,8 @@
     "url": "https://github.com/mpobjects/threaddump-analyzer/issues"
   },
   "scripts": {
-    "test": "gulp test jslint htmllint csslint"
+    "test": "gulp test jslint htmllint csslint",
+    "start": "http-server -c-1 -p 8081"
   },
   "keywords": [
     "java",
